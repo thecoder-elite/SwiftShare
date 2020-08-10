@@ -1,8 +1,5 @@
 import React from 'react';
 import '../Css/Recieve.css';
-import firebase from 'firebase/app';
-import 'firebase/storage';
-import '../init-firebase';
 
 class Recieve extends React.Component{
     constructor(){
