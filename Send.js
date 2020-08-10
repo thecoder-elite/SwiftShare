@@ -1,8 +1,5 @@
 import React from 'react';
 import '../Css/Send.css';
-import firebase from 'firebase/app';
-import 'firebase/storage';
-import '../init-firebase';
 import Result from './Result';
 
 class Send extends React.Component{
