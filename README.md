@@ -3,4 +3,4 @@ SwiftShare is a File sharing website developed using Reactjs, Node.js and Google
 
 ## view the project at ("https://swift-share.web.app/")
 
-![GitHub Logo](/ss.JPG)
+![ScreenShot](/ss.JPG)
