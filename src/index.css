@@ -1,13 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  font-size: 20px !important;
-  font-family: "Roboto", sans-serif !important;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px !important;
+    font-family: 'Roboto', sans-serif !important;
 }
-.App{
+.App {
     margin: 0;
     padding: 0;
     border: none;
@@ -15,8 +15,8 @@ body {
     height: auto;
 }
 @media only screen and (max-width: 767px) {
-.App{
-    width: 100%;
-    height: auto;
-}
+    .App {
+        width: 100%;
+        height: auto;
+    }
 }

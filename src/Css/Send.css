@@ -1,4 +1,4 @@
-.send{
+.send {
     height: auto;
     width: 100%;
     margin: 0;
@@ -7,7 +7,7 @@
     grid-template-columns: 50% 50%;
     margin-top: 70px;
 }
-.imgPanel{
+.imgPanel {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -16,7 +16,7 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
-.filePicker{
+.filePicker {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -27,7 +27,7 @@
     width: 100%;
 }
 
-.filePicker-content{
+.filePicker-content {
     width: 80%;
     height: auto;
     margin: 0;
@@ -37,7 +37,7 @@
     align-items: center;
     flex-direction: column;
 }
-#upload{
+#upload {
     border-radius: 5rem;
     height: 3rem;
     width: 30%;
@@ -48,10 +48,10 @@
     margin-top: 15px;
     outline: none;
 }
-#upload:hover{
+#upload:hover {
     background-color: #542094;
 }
-#alert{
+#alert {
     display: none;
     z-index: 2;
     position: absolute;
@@ -64,7 +64,7 @@
     color: #721c24;
     background-color: #f8d7da;
 }
-.filedisplay{
+.filedisplay {
     margin-top: 20px;
     width: 90%;
     height: auto;
@@ -73,52 +73,52 @@
     border-radius: 10px;
     border: 1px solid black;
 }
-ul{
+ul {
     padding: 0;
 }
-li{
+li {
     list-style: none;
     color: rgb(78, 78, 78);
     padding-bottom: 10px;
     border-bottom: 1px solid rgb(214, 213, 213);
 }
-li:hover{
+li:hover {
     color: black;
 }
-.division{
+.division {
     width: 20%;
     border: 1px solid black;
 }
-#statusIndicatorSend{
+#statusIndicatorSend {
     margin-top: 20px;
     width: 250px;
     height: 30px;
     appearance: none;
 }
 progress[value]::-webkit-progress-value {
-    background-image:
-        -webkit-linear-gradient(-45deg, 
-                                 transparent 33%, rgba(0, 0, 0, .1) 33%, 
-                                 rgba(0,0, 0, .1) 66%, transparent 66%),
-        -webkit-linear-gradient(top, 
-                                 rgba(255, 255, 255, .25), 
-                                 rgba(0, 0, 0, .25)),
-        -webkit-linear-gradient(left, rgb(174, 33, 209),#6125ac);
-      border-radius: 2px; 
-      background-size: 35px 20px, 100% 100%, 100% 100%;
+    background-image: -webkit-linear-gradient(
+            -45deg,
+            transparent 33%,
+            rgba(0, 0, 0, 0.1) 33%,
+            rgba(0, 0, 0, 0.1) 66%,
+            transparent 66%
+        ),
+        -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)),
+        -webkit-linear-gradient(left, rgb(174, 33, 209), #6125ac);
+    border-radius: 2px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
 }
-
 
 progress[value]::-webkit-progress-bar {
     background-color: #eee;
     border-radius: 2px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
-  }
+}
 @media only screen and (max-width: 767px) {
-    body{
+    body {
         padding-bottom: 30px;
     }
-    .send{
+    .send {
         height: auto;
         width: 100%;
         margin: 0;
@@ -127,7 +127,7 @@ progress[value]::-webkit-progress-bar {
         grid-template-columns: 100%;
         grid-template-rows: auto auto;
     }
-    .imgPanel{
+    .imgPanel {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
@@ -136,7 +136,7 @@ progress[value]::-webkit-progress-bar {
         justify-content: center;
         align-items: center;
     }
-    .filePicker{
+    .filePicker {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
@@ -146,7 +146,7 @@ progress[value]::-webkit-progress-bar {
         align-items: center;
         width: 100%;
     }
-    #alert{
+    #alert {
         display: none;
         z-index: 2;
         position: absolute;
@@ -154,18 +154,18 @@ progress[value]::-webkit-progress-bar {
         left: 5%;
         right: 5%;
     }
-    .sendImage{
+    .sendImage {
         width: 300px;
         height: 267px;
     }
-    #upload{
+    #upload {
         width: 150px;
         font-size: 30px;
     }
-    .fileInfo{
+    .fileInfo {
         font-size: 15px;
     }
-    li{
+    li {
         font-size: 15px;
     }
 }
